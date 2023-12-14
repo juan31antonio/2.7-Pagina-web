@@ -1,0 +1,41 @@
+header {
+    background-color: purple;
+    padding:10px;
+    margin: 0px;
+    color: white;
+    text-align: center;  
+    height: 10vh; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: cyan ;
+    justify-content: space-between;
+    height: 5vh;
+}
+  
+a {
+    margin: 10px 400px; 
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    text-align: center;
+    flex-shrink: 0;
+    background-color: #222222;
+    color: #504e4e;
+    height: 5vh;
+}
